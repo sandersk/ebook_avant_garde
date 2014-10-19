@@ -30,7 +30,7 @@ function wrapInSpans(the_element) {
 	$.each(element_words, function (i, word) {
 	  if (word.length > 0) {
 	      // Wrap each word in a span
-	      words_wrapped_in_spans += '<span class="invisible_word" onclick="void(0)">' + word + '</span>' + ' ';
+	      words_wrapped_in_spans += '<span class="invisible_word">' + word + '</span>' + ' ';
 	  }
 	});
 	// Update text node with new set of words in spans
